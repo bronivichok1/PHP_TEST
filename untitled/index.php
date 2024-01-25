@@ -5,13 +5,15 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-
+      <a href="index.php">FreeBot</a>|
+      <a href="about.php">Panel</a>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"></link>
     <title>PHP App</title>
   </head>
   <body>
 
 <?php
-    echo abs(-22);
+  /*  echo abs(-22);
     $number=-4.5;
     $str="Work";
     $nums=array(2,2,2,2);
@@ -44,6 +46,10 @@
         echo $i . '</br>';
         $i++;
     }
+    */
+    require_once("./about.php");
+    include_once("./Home.php");
 ?>
+<footer>Yes</footer>
   </body>
 </html>
