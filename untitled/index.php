@@ -10,6 +10,14 @@
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"></link>
     <title>PHP App</title>
   </head>
+      <div align="center" >
+          <form  action ="check_post.php" method="post">
+              <input type="text" name="username" placeholder="name" class="form-control" ></br>
+              <input type="text" name="email" placeholder="email" class="form-control" ></br>
+              <input type="text" name="password" placeholder="password" class="form-control" ></br>
+              <input type="submit" value="Login" class="ptn btn-success">
+          </form>
+      </div>
   <body>
 
 <?php
@@ -47,9 +55,11 @@
         $i++;
     }
     */
-    require_once("./about.php");
-    include_once("./Home.php");
+    //require_once("./about.php");
+    //include_once("./Home.php");
+
 ?>
-<footer>Yes</footer>
+
   </body>
+  <footer> </footer>
 </html>
