@@ -19,6 +19,7 @@
             echo "$value";
         }
         header('Location: /about.php');
-        exit;
+
+
     }
     ?>

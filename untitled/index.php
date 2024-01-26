@@ -18,6 +18,14 @@
               <input type="submit" value="Login" class="ptn btn-success">
           </form>
       </div>
+  <div align="center" >
+      <form  action ="check_get.php" method="get">
+          <input type="text" name="username" placeholder="name" class="form-control" ></br>
+          <input type="text" name="email" placeholder="email" class="form-control" ></br>
+          <input type="text" name="password" placeholder="password" class="form-control" ></br>
+          <input type="submit" value="Login" class="ptn btn-success">
+      </form>
+  </div>м
   <body>
 
 <?php
